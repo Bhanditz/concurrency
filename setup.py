@@ -8,6 +8,7 @@ setup(
 	author='Drew Nutter',
 	author_email='drew@drewnutter.com',
 	license='GPLv3',
+	package_dir={'': 'src'},
 	packages=['concurrency'],
 	zip_safe=False,
 )
